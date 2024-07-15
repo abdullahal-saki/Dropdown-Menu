@@ -1,0 +1,62 @@
+/* COMMON CSS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: Arial;
+}
+/* COMMON CSS END*/
+/* NAVBAR*/
+nav{
+    background: #2193b0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    color:white;
+    background-color: rgba(255, 255, 255, 0.2);
+
+    padding: 15px 25px ;
+    display: block;
+    margin: 0 10px;
+}
+nav ul li a :hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+nav ul li .submenu{
+    position: absolute;
+    border: 1px solid #aaa;
+    background-color: #fff;
+    transition: 0.5s;
+    opacity: 
+    
+
+}
+nav ul li .submenu li{
+    display:block;
+    border-bottom: 1px solid #aaa;
+}
+nav ul li .submenu li a{
+    color: black;
+}
+nav ul li :hover .submenu{
+    opacity:1;
+    visibility: visible;
+}
+nav ul li .submenu li :hover a{
+    margin-left: 25px;
+}
+/* NAVBAR ENDS*/
